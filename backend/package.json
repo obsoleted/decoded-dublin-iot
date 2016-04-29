@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "Backend for IoT Hub decoded demo.",
+  "main": "backend.js",
+  "scripts": {
+    "lint": "eslint backend.js",
+    "jscs": "jscs backend.js",
+    "shint": "jshint backend.js",
+    "scrub": "npm run lint && npm run jscs && npm run shint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "jscs": "^3.0.3",
+    "jshint": "^2.9.2"
+  },
+  "dependencies": {
+    "amqp10": "2.1.2",
+    "azure-iot-common": "1.0.4",
+    "azure-iothub": "1.0.4",
+    "bluebird": "^3.0.1",
+    "colors-tmpl": "^1.0.0",
+    "nopt": "^3.0.4",
+    "prettyjson": "^1.1.3",
+    "rx": "^4.1.0",
+    "uuid": "^2.0.1"
+  }
+}

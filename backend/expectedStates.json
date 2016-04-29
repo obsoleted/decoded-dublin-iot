@@ -1,0 +1,15 @@
+{
+    "huzzah": {
+        "led1": false,
+        "led2": true
+    },
+    "rpi2": {
+        "Led": false,
+        "LcdText": "RPi2"
+    },
+    "edison": {
+        "greenLed": false,
+        "redLed": true,
+        "lcdText": "Edison"
+    }
+}
