@@ -1,0 +1,23 @@
+{
+  "name": "edisonthing",
+  "version": "0.1.0",
+  "description": "Edison sample for demo",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "johnny-five": "^0.9.44"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.0.5",
+    "azure-iot-device-amqp": "^1.0.5",
+    "azure-iot-device-http": "^1.0.5",
+    "azure-iot-device-mqtt": "^1.0.5",
+    "edison-io": "^0.9.4",
+    "johnny-five": "^0.9.44"
+  }
+}

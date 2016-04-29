@@ -1,0 +1,9 @@
+{
+    "preset": "airbnb",
+    "validateQuoteMarks": {
+        "escape": true,
+        "value": "'",
+        "mark": "'"
+    },
+    "requireTrailingComma": false
+}
